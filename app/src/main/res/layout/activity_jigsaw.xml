@@ -90,5 +90,15 @@
                 bootstrap:fa_icon="fa-rotate-right"
                 android:layout_margin="10dp"
                 android:textSize="20sp" />
+        <com.beardedhen.androidbootstrap.FontAwesomeText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            bootstrap:fa_icon="fa-refresh"
+            android:onClick="reset" />
+
+        />
     </LinearLayout>
 </LinearLayout>
