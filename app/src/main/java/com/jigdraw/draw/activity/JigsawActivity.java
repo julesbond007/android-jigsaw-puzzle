@@ -177,4 +177,9 @@ public class JigsawActivity
         chronometer.setBase(SystemClock.elapsedRealtime() - elapsedTime);
         chronometer.start();
     }
+
+    public void reset(View view){
+        chronometer.setBase(SystemClock.elapsedRealtime());
+        initViews();
+    }
 }
